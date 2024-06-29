@@ -23,10 +23,10 @@ const config: ExpoConfig = {
     eas: {
       projectId: "a756e088-c07a-4034-b9c5-51f50139ac21"
     },
-    apiUrl: process.env.DUO_API_URL,
-    chatUrl: process.env.DUO_CHAT_URL,
-    imagesUrl: process.env.DUO_IMAGES_URL,
-    statusUrl: process.env.DUO_STATUS_URL,
+    apiUrl: "http://127.0.0.1:5000",
+    chatUrl: "ws://127.0.0.1:5443",
+    imagesUrl: "http://127.0.0.1:9090/s3-mock-bucket",
+    statusUrl: "http://127.0.0.1:8080",
   },
   ios: {
     bundleIdentifier: "app.duolicious"
